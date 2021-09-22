@@ -1,6 +1,6 @@
 # Project Boost Game
 
-![rocket banner png](https://user-images.githubusercontent.com/68731924/134361459-e88d961e-f23c-4a1f-8d00-490e90f1b25e.png)
+![rocket banner png](https://user-images.githubusercontent.com/68731924/134362554-009a8d13-4096-4315-941b-14b43909650f.png)
 
 ## What is Project Boost Game?
 
