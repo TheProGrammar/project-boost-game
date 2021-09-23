@@ -9,7 +9,7 @@ Made in Unity and Visual Studio Code.
 
 ## Contribution
 
-Feel free to contribute to this humble project. This will help me to better understand SwiftUI and how to use it as a starting point.
+Feel free to contribute with any suggestions or advice.
 
 ## Author
 
@@ -17,5 +17,5 @@ This app was made by me, Miroslav Mali. If you want to contact me, you can send 
 
 ## Credits
 
-The whole game project is a part of the Unity 3D course I am going through right now. 
+The whole game project is a part of the Unity 3D course I enrolled. 
 All credits go to GameDev Team.
