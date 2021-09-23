@@ -5,11 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class CollisionHandler : MonoBehaviour
 {
+    // SceneManagement Delays
     [SerializeField] float reloadLvlDelay = 1.5f;
     [SerializeField] float nextLvlDelay = 1.5f;
 
+    // Audio Files
     [SerializeField] AudioClip crashSound;
     [SerializeField] AudioClip finishSound;
+
+    [SerializeField] ParticleSystem crashParticles;
+    [SerializeField] ParticleSystem finishParticles;
 
     AudioSource audioSource;
 
@@ -40,7 +45,8 @@ public class CollisionHandler : MonoBehaviour
     void StartFinishSequence()
     {
         isTransitioning = true;
-        // todo add particle effect
+
+        finishParticles.Play();
         GetComponent<Movement>().enabled = false;
         GetComponent<Rigidbody>().freezeRotation = true;
         audioSource.Stop();
@@ -51,7 +57,8 @@ public class CollisionHandler : MonoBehaviour
     void StartCrashSequence()
     {
         isTransitioning = true;
-        // todo add particle effect
+
+        crashParticles.Play();
         GetComponent<Movement>().enabled = false;
         audioSource.Stop();
         audioSource.PlayOneShot(crashSound);
