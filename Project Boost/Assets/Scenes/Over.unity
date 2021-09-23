@@ -431,10 +431,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2046049234}
     m_Modifications:
+    - target: {fileID: 1048635419, guid: 79b58e482838aad418ee41b90c5e9667, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 973709049533980234, guid: 79b58e482838aad418ee41b90c5e9667, type: 3}
       propertyPath: m_Name
       value: Rocket
       objectReference: {fileID: 0}
+    - target: {fileID: 973709049533980277, guid: 79b58e482838aad418ee41b90c5e9667, type: 3}
+      propertyPath: engineSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 95ecdb15a5e0aca4c9b69ad0adbf058e, type: 3}
     - target: {fileID: 973709049533980278, guid: 79b58e482838aad418ee41b90c5e9667, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -479,6 +487,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4733621480629332929, guid: 79b58e482838aad418ee41b90c5e9667, type: 3}
+      propertyPath: crashSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 8041b1fba50a2724f882a8c25fad19e4, type: 3}
+    - target: {fileID: 4733621480629332929, guid: 79b58e482838aad418ee41b90c5e9667, type: 3}
+      propertyPath: finishSound
+      value: 
+      objectReference: {fileID: 8300000, guid: e57024f126aaafd43bc083401a1d81c2, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79b58e482838aad418ee41b90c5e9667, type: 3}
 --- !u!1001 &1484391268699890782
@@ -495,10 +511,6 @@ PrefabInstance:
     - target: {fileID: 1484391270421999833, guid: 2889955610de74f48ad8b42c4a82e3fb, type: 3}
       propertyPath: m_RootOrder
       value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1484391270421999833, guid: 2889955610de74f48ad8b42c4a82e3fb, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 6.9275
       objectReference: {fileID: 0}
     - target: {fileID: 1484391270421999833, guid: 2889955610de74f48ad8b42c4a82e3fb, type: 3}
       propertyPath: m_LocalPosition.x
